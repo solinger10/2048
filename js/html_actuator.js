@@ -137,3 +137,8 @@ HTMLActuator.prototype.clearMessage = function () {
   this.messageContainer.classList.remove("game-won");
   this.messageContainer.classList.remove("game-over");
 };
+
+
+HTMLActuator.prototype.setRunButton = function(message) {
+  document.getElementById('run-button').innerHTML = message;
+}
